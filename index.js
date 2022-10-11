@@ -10,8 +10,8 @@ var p1=new Promise(function(resolve,reject){
     }
 });
 p1.then(function(result){
-    console.log('success', result)
+     document.write('success', result)
 })
 .catch(function(error){
-    console.log('Error', error)
+     document.write('Error', error)
 })
